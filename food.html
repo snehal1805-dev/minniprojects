@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food order system</title>
+    <link rel="stylesheet" href="food.css">
+
+</head>
+
+<body>
+   
+    <div class="nav">
+         <h1>Food Order System</h1>
+        <a href="#home">home</a>
+        <a href="#ordered-food">order foods</a>
+        <a href="#cart">cart</a>
+        <a href="#menu">special menu</a>
+    </div>
+    <section class="home" id="home">
+        <h1>Welcome to our Food Order System</h1>
+        <p>Order your favorite meals online and enjoy delicious food at your doorstep.</p>
+        <button class="order-now">Order Now</button>
+    </section>
+    <section id="menu">
+    <div class="container">
+        <div class="card">
+            <img src="https://ts3.mm.bing.net/th?id=OIP.L4gFt0wCu8GK-2TpnU8rjAHaHa&pid=15.1&o=7&rm=3" alt="Burger">
+            <h2>Cheese Burger</h2>
+            <p>$5.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://ts4.mm.bing.net/th?id=OIP.ZZsn6lD6PCjocBzx1tuu1QHaEo&pid=15.1&o=7&rm=3" alt="Pizza">
+            <h2>Pepperoni Pizza</h2>
+            <p>$8.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://ts3.mm.bing.net/th?id=OIP.ezm0wgubgm8KD4J2hh5MIwHaLH&pid=15.1&o=7&rm=3" alt="Pasta">
+            <h2>Spaghetti Carbonara</h2>
+            <p>$7.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="https://ts3.mm.bing.net/th?id=OIP.8UagT3WWGxruvIOqJTCPeQHaE8&pid=15.1&o=7&rm=3" alt="Salad">
+            <h2>Caesar Salad</h2>
+            <p>$4.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+            <div class="card">
+            <img src="https://ts1.mm.bing.net/th?id=OIP.UsNAgFBrVuxm7eiJNAj8LwHaD4&pid=15.1&o=7&rm=3" alt="coffe">
+            <h2>Cold coffe</h2>
+             <p>$3.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+         <div class="card">
+            <img src="https://ts3.mm.bing.net/th?id=OIP.2f9HrgUASGG_BLC6MDa0NQHaHa&pid=15.1&o=7&rm=3" alt="maggi">
+            <h2>Maggi</h2>
+             <p>$2.99</p>   
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+            
+    </div>
+    </section>
+    <section class="cart" id="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: $0.00</h3>
+            <button class="checkout">Checkout</button>
+        </div>
+    </section>
+   <section class="ordered-food" id="ordered-food">
+  <h2>Ordered Foods</h2>
+  <div class="ordered-list">
+    <!-- Permanent orders will appear here -->
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="food.js"></script>
+</body>
+
+</html>
